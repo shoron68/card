@@ -8,15 +8,15 @@ const Card = () => {
         <div className="lg:flex lg:justify-center lg:mt-[100px]">
 
             <div className='lg:w-[1216px] w-full h-auto relative overflow-hidden  ' >
-                <div className="h-[285px] w-[277px] border-[1px] border-[#ffffff1e]  rounded-[18px] bg-[#ffffff18] absolute lg:top-[26px]  lg:left-[75px] left-[-30px] rotate-12 "></div>
+                <div className="h-[285px] w-[277px] border-[1px] border-[#ffffff1e]  rounded-[18px] bg-[#ffffff18] absolute lg:top-[26px]  lg:left-[75px] left-[-30px] opacity-[60%] rotate-12 "></div>
 
-                <div className="   bg-gradient-to-br from-[#1D44E3] to-[#9D00FF] text-center lg:rounded-2xl">
+                <div className="   bg-gradient-to-br from-[#1D44E3] to-[#661AB8] text-center lg:rounded-2xl">
 
                     <div className="py-[50px] lg:mx-0 mx-[20px]">
                         <div className="bg-gradient-to-r from-transparent via-[#ffffff46] to-transparent h-[1px] "></div>
                         <div className="flex justify-center pt-[50px]">
                             <div className="lg:w-[18%] ">
-                                <div className="flex items-center  bg-opacity-20 text-[#ffffff] text-sm pl-4 pr-1 py-1 border-[1px] border-[#ffffff46] bg-[#ffffff2a] rounded-full">
+                                <div className="flex items-center  bg-opacity-20 text-[#ffffff] text-sm pl-4 pr-1 py-1 border-[1px] border-[#ffffff46] bg-[#ffffff1c] rounded-full">
                                     <span className="w-[10px] h-[10px] bg-blue-400 rounded-full mr-2"></span>
                                     Available for new projects
                                 </div>
@@ -36,12 +36,12 @@ const Card = () => {
                         </div>
 
                         <div className="mt-[58px] flex justify-center gap-4 ">
-                            <button className="flex items-center gap-2 text-[#3F79DB] text-[20px] font-semibold pr-5 pl-8 py-4 rounded-lg border-[#fff] bg-[#fff] border-[1px] cursor-pointer ">
+                            <button className="flex items-center gap-2 text-[#3F79DB] text-[20px] font-semibold pr-4 pl-7 py-3 rounded-lg border-[#fff] bg-[#fff] border-[1px] cursor-pointer ">
                                 <FaRegFolder />
                                 View Portfolio
                             </button>
 
-                            <button className="flex items-center gap-2 text-[#fff] font-normal text-[20px] pr-5 pl-8 py-4 rounded-lg border-[1px] border-[#ffffff46] bg-[#ffffff2a] cursor-pointer">
+                            <button className="flex items-center gap-2 text-[#fff] font-normal text-[20px] pr-4 pl-7 py-3 rounded-lg border-[1px] border-[#ffffff46] bg-[#ffffff2a] cursor-pointer">
                                 <FaEnvelope />
                                 Let's Talk
                             </button>
@@ -73,9 +73,16 @@ const Card = () => {
                                     <p className='text-[#ffffffcc]'>Support Response</p>
                                 </div>
                             </div>
-                            <div className="absolute bottom-[-44px]  right-[170px] -z-10 h-[200px] w-[700px] rounded-full bg-[radial-gradient(circle,_rgba(157,0,255,0.6)_10%,_rgba(157,0,255,0.3)_50%,_rgba(157,0,255,0)_40%)] filter blur-xl ">
-                            </div>
-                            
+                            {/* <div className="absolute bottom-[-44px] right-[170px] -z-10 h-[200px] w-[700px] rounded-full bg-[radial-gradient(circle,_rgba(105,54,207,0.6)_10%,_rgba(105,54,207,0.3)_50%,_rgba(105,54,207,0)_40%)] filter blur-xl">
+                            </div> */}
+                            <div
+  className="absolute bottom-[-44px] right-[170px] -z-10 h-[200px] w-[700px] rounded-full 
+  bg-[radial-gradient(circle,_rgba(138,0,194,0.8)_10%,_rgba(138,0,194,0.5)_50%,_rgba(138,0,194,0.2)_40%)] 
+  filter blur-xl opacity-[30%]">
+</div>
+
+
+
 
 
                         </div>
@@ -85,12 +92,7 @@ const Card = () => {
 
                 </div>
 
-                <div className="h-[310px] w-[274px] border-[1px] border-[#ffffff1e] bg-[#ffffff18] rounded-[18px]  bottom-[-45px] lg:right-[48px] right-[-25px]  absolute -rotate-9"></div>
-
-
-                {/* <div className="absolute top-[20px]  right-[-600px]  h-[1000px] w-[1500px] rounded-full bg-[radial-gradient(circle,_rgba(157,0,255,0.6)_10%,_rgba(157,0,255,0.3)_50%,_rgba(157,0,255,0)_40%)] filter blur-xl ">
-                </div> */}
-
+                <div className="h-[310px] w-[274px] border-[1px] border-[#ffffff1e] bg-[#ffffff18] rounded-[18px]  bottom-[-45px] lg:right-[48px] right-[-25px]  absolute -rotate-9 opacity-[50%]"></div>
             </div >
         </div>
     )
